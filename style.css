@@ -1,0 +1,54 @@
+@font-face {
+	font-family: Coolvetica;
+	src: url('../ctn/coolvetica.ttf');
+}
+
+* {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+}
+
+#CenterTitle {
+    font-family: Coolvetica;
+    display: block;
+    list-style: none;
+    margin-top: 20px;
+    color: #b36526;
+    font-size: 65px;
+    text-align: center;
+    text-shadow: 2px 2px 3px #00000093
+}
+
+#Avant {
+    background-color: rgba(0, 0, 0, 0.616);
+}
+
+#Acceuil {
+    --margin-top: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 60px;
+    height: 600px;
+    width: 550px;
+    left: 1200px;
+    top: 100px;
+}
+
+.TextStyle li {
+    font-family: Coolvetica;
+    display: block;
+    list-style: none;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-align: center;
+}
+
+#VarTouches {
+    color: rgb(255, 123, 0);
+    text-shadow: 2px 2px 2px #00000057
+}
